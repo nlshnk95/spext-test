@@ -1,0 +1,9 @@
+$purple: #E2DDFF;
+$lightgray: #F8F8F8;
+
+// mixins 
+@mixin breakpoint($size) {
+  @media only screen and (max-width: $size + px) {
+    @content;
+  }
+}
